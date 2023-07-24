@@ -31,3 +31,5 @@ cv2.imshow("DILATED IMAGE", imgDilation)
 imgerod = cv2.erode(gray, kernel, iterations=2)
 cv2.imshow("EROD IMAGE", imgerod)
 cv2.waitKey(0)
+
+# you can erode or dilate with the color images, it must not be a gray image
